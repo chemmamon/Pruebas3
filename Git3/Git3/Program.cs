@@ -11,6 +11,13 @@ namespace Git3
         static void Main(string[] args)
         {
             Console.WriteLine("Hola Git");
+            Console.WriteLine(edad());
+        }
+
+        public static int edad()
+        {
+            return 18;
         }
     }
+   
 }
